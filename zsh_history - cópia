@@ -1,0 +1,116 @@
+sudo spctl --master-disable
+/Users/admin/vcpkg/rustdesk/target/release/rustdesk ; exit;
+/Users/admin/vcpkg/rustdesk/target/release/rustdesk ; exit;
+[200~sudo rm -rf /Applications/RustDesk.app
+sudo rm -rf /Applications/RustDesk.app
+udo rm  ~/Library/Logs/DiagnosticReports/Rust*\
+\
+sudo rm -r  ~/Library/Logs/RustDesk\
+\
+sudo find ~/Library/Preferences ~/Library/Application\ Support /Library/Preferences /Library/Application\ Support ~/Library/Containers -name "*RustDesk*"\
+\
+sudo rm -r /Users/USERNAME/Library/Preferences/com.carriez.RustDesk\
+\
+sudo rm -rf ~/Library/Application\ Support/CrashReporter/RustDesk*\
+\
+sudo launchctl unload -w /Library/LaunchDaemons/com.carriez.RustDesk_service.plist\
+\
+sudo launchctl unload -w /Library/LaunchAgents/com.carriez.RustDesk_server.plist\
+\
+sudo rm /Library/LaunchDaemons/com.carriez.RustDesk_service.plist\
+\
+sudo rm /Library/LaunchAgents/com.carriez.RustDesk_server.plist\
+
+brew update\
+
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+brew help
+(echo; echo 'eval "$(/usr/local/bin/brew shellenv)"') >> /Users/admin/.zprofile\
+    eval "$(/usr/local/bin/brew shellenv)"
+brew install cargo-bundle\
+
+brew install nasm yasm\
+
+brew install pkg-config\
+
+brew install create-dmg\
+
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+source "$HOME/.cargo/env"\
+
+ls
+git clone https://github.com/microsoft/vcpkg\
+
+cd vcpkg\
+
+git checkout 2023.04.15\
+
+./bootstrap-vcpkg.sh\
+
+./vcpkg install libvpx libyuv opus aom\
+
+git clone https://github.com/rustdesk/rustdesk\
+
+cd rustdesk
+wget https://github.com/c-smile/sciter-sdk/raw/master/bin.osx/libsciter.dylib\
+
+brew install wget
+wget https://github.com/c-smile/sciter-sdk/raw/master/bin.osx/libsciter.dylib\
+
+cargo build\
+
+export VCPKG_ROOT=Users/admin/vcpkg/
+cargo build\
+
+cargo fix -p rustdesk --allow-dirty\
+
+ export VCPKG_ROOT=$HOME/vcpkg
+cargo fix -p rustdesk --allow-dirty\
+
+ls
+cargo build
+ls
+cargo build --release
+cargon run
+cargo run
+python build.py
+python build.py
+./build.py
+create-dmg --volname "RustDesk Installer" --window-pos 200 120 --window-size 800 400 --icon-size 100 --app-drop-link 600 185 --icon "./target/release/bundle/osx/RustDesk.app" 200 190 --hide-extension RustDesk.app "rustdesk_prod_new.dmg" "./target/release/bundle/osx/RustDesk.app"
+cd ..
+cd ..
+cd ..
+ls
+git clone https://github.com/microsoft/vcpkg
+cd vcpkg\
+
+git checkout 2023.04.15\
+
+./bootstrap-vcpkg.sh\
+
+./vcpkg install libvpx libyuv opus aom\
+
+git clone --branch Master-copy https://github.com/gon4u/rustdesk.git
+cd rustdesk
+ls
+nano flutter/lib/common.dart
+wget https://github.com/c-smile/sciter-sdk/raw/master/bin.osx/libsciter.dylib\
+
+export VCPKG_ROOT=$HOME/vcpkg
+export RENDEZVOUS_SERVER=hushdesk.acin.pt
+export RS_PUB_KEY=6AXxvILMK+iImwOnJP3vmKPLvoQKxPrBAqQKm3kcISM=
+cargo run
+cd ..
+cd ..
+cd ..
+cd ..
+cd .
+ls
+cd ..
+cd ..
+ls
+ls
+cd vcpkg
+cargo run
+cd rustdesk
+cargo run
